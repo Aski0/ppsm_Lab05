@@ -37,10 +37,7 @@ class MainActivity : AppCompatActivity(),LocationListenerCompat {
     private val sensorListener:SensorEventListener=object :SensorEventListener{
         var qValue:FloatArray?=FloatArray(3)
         var mValue:FloatArray?= FloatArray(3)
-        override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
-            TODO("Not yet implemented")
-        }
-
+        override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {}
         override fun onSensorChanged(event: SensorEvent) {
             if(event.sensor.type==Sensor.TYPE_ACCELEROMETER) qValue=event.values.clone()
             if(event.sensor.type==Sensor.TYPE_MAGNETIC_FIELD) mValue=event.values.clone()
@@ -54,6 +51,8 @@ class MainActivity : AppCompatActivity(),LocationListenerCompat {
                 }
             }
         }
+
+
 
     }
 

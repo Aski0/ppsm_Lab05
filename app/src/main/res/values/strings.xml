@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Lab03</string>
-    <string name="labelTitle">Odczyt FPS i sensorów</string>
+    <string name="labelTitle">Odczyt GPS i sensorów</string>
     <string name="labelLonText">Długość geo.</string>
     <string name="labelLatText">Szerokość geo.</string>
     <string name="labelHgtText">Wysokość n.p.m.</string>
