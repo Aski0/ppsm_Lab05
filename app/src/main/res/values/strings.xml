@@ -11,4 +11,6 @@
     <string name="compassText">KOMPAS CYFROWY</string>
     <string name="noPermission">BRAK uprawnień do odczytu współrzędnych GPS !</string>
     <string name="permissionGranted">Przyznano uprawnienia</string>
+    <string name="noAcc">NO accelerometer</string>
+    <string name="noMag">NO magnetometer</string>
 </resources>
